@@ -18,7 +18,7 @@ def isprime(p):
         return False
     if p == 2:
         return True
-    for i in range(2, int(sqrt(p))):
+    for i in range(2, int(sqrt(p)+1)):
         if p % i == 0:
             return False
     return True
